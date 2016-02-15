@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="T2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <TextBox Grid.Row="2" Grid.Column="2" Text="Login:" Margin="0,207,-183,-197" HorizontalAlignment="Center" Width="auto"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="Password:" Margin="91,207,-81,-197"/>
+        <TextBox Grid.Row="0" Grid.Column="0" Text="Login:" Margin="0,174,-183,-164" HorizontalAlignment="Center" Width="Auto"/>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Login:" Margin="91,174,-81,-164"/>
+        <StackPanel Height="auto" Margin="auto" VerticalAlignment="auto"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Stretch" Margin="123,233,172,0" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBox x:Name="textBox" Height="177" Margin="91,125,56,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Page>
