@@ -30,29 +30,46 @@ namespace T1
         private void button_Click(object sender, RoutedEventArgs e)
         {
             item_textBlock.Text = "";
-        
-            if ((bool)checkBox_chicken IsChecked)
-             {
-                    item_textBlock.Text = "Milk";
+            {
+                if ((bool)checkBox_milk.IsChecked)
+
+                {
+                    item_textBlock.Text += "Milk";
                 }
 
-        else
-        private void checkBox_chicken_Checked(object sender, RoutedEventArgs e)
-        {
+                else
+                {
+                    if ((bool)checkBox_chicken.IsChecked)
+                    {
+                        item_textBlock.Text += "Chicken";
+                    }
+                    else
+                    {
+                        if ((bool)checkBox_beer.IsChecked)
+                        {
+                            item_textBlock.Text += "Beer";
+                        }
 
-        }
-        private void checkBox_beer_Checked(object sender, RoutedEventArgs e)
-        {
+                        else
+                        {
+                            if ((bool)checkBox_lemon.IsChecked)
+                            {
+                                item_textBlock.Text += "Lemon";
+                            }
+                        }
+                    }
 
-        }
-        private void checkBox_Lemon_Checked(object sender, RoutedEventArgs e)
-        {
 
-        }
-        private void checkBox_egs_Checked(object sender, RoutedEventArgs e)
-        {
 
+
+
+
+
+
+
+                }
+            }
         }
     }
-    }
+}
     

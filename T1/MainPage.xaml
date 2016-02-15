@@ -11,10 +11,10 @@
         <CheckBox x:Name="checkBox_chicken" Content="Chicken" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" IsChecked="False"/>
         <CheckBox x:Name="checkBox_milk" Content="Milk" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" ClickMode="Press" IsChecked="False"/>
         <CheckBox x:Name="checkBox_beer" Content="Beer" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" IsChecked="False"/>
-        <CheckBox x:Name="checkBox_Lemon" Content="Lemon" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" IsChecked="False"/>
+        <CheckBox x:Name="checkBox_lemon" Content="Lemon" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" IsChecked="False"/>
         <CheckBox x:Name="checkBox_egs" Content="Egs" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" IsChecked="False"/>
         <Button x:Name="button" Content="Buy" Margin="10,221,0,0" VerticalAlignment="Top" Click="button_Click"/>
-        <TextBlock x:Name="item_textBlock" Margin="10,310,0,246" TextWrapping="Wrap" Text="TextBlock" d:LayoutOverrides="TopPosition, BottomPosition" HorizontalAlignment="Left" Width="132"/>
+        <TextBox x:Name="item_textBlock" Margin="10,310,0,246" TextWrapping="Wrap" Text="TextBlock" d:LayoutOverrides="TopPosition, BottomPosition" HorizontalAlignment="Left" Width="132"/>
 
     </Grid>
 </Page>
